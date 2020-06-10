@@ -4,11 +4,11 @@
     <h4><?php echo $_SESSION["email_usuario"] ?></h4>
     <br>
     <ul class="datoss list-inline">
-        <li>
+        <li class="datosLi">
             <span><?php echo $_SESSION["num_viajes_usuario"] ?></span>
                 Viajes Publicados
         </li>
-        <li>
+        <li class="datosLi">
             <span><?php echo $_SESSION["num_viajes_usuario_reservados"] ?></span>
             Viajes Reservados
         </li>
@@ -33,7 +33,7 @@
                             <!-- Split button -->
                             <div class="btn-group">
                                 <button type="button" class="btn btn-primary">
-                                    Acciones</button>
+                                    <strong>Acciones</strong></button>
                                 <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
                                 </button>
                                 <ul class="dropdown-menu" role="menu">

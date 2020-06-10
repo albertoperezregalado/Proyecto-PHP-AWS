@@ -13,7 +13,7 @@
                                 Precio al mes: <?php echo $row->precioReserv ?> €
                             </div>
                             </br>
-                            <button type="button" class="btn btn-secondary"><a style="color:white; text-decoration: none;" href="<?php echo $_SESSION['home']."admin/viajes/borrarReserv/".$row->id_reserva ?>" title="¿Estas seguro de eliminarlo?">Eliminar reserva viaje</a></button>
+                            <button type="button" class="btn btn-secondary"><a style="color:white; text-decoration: none;" href="<?php echo $_SESSION['home']."admin/viajes/borrarReserv/".$row->id_reserva ?>" title="¿Estas seguro de eliminarlo?"><strong>Eliminar reserva viaje</strong></a></button>
                         </div>
                     </div>
                 </div>

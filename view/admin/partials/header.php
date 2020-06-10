@@ -96,7 +96,7 @@
                     </a>
                 </li>
                 <li class="nav-item float-xl-left">
-                    <a class="nav-link" href="<?php echo $_SESSION['home'] ?>admin/salir" title="Salir">
+                    <a class="nav-link salir" href="<?php echo $_SESSION['home'] ?>admin/salir" title="Salir">
                         <i class="fa fa-power-off derecha">
                         </i>
                     </a>

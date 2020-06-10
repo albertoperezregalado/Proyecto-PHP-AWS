@@ -3,7 +3,7 @@
     <div id="ventanaReserva" style=" margin-top:1%" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
         <div class="panel panel-info reserva">
             <div class="panel-heading reserva">
-                <div class="panel-title">Reservar el viaje selecionado</div>
+                <div class="panel-title"><strong>Reservar el viaje selecionado</strong></div>
                 <div style="float:right; font-size: 85%; position: relative; top:-10px"><a id="link" href="#">Ayuda</a></div>
             </div>
             <div class="panel-body" >
@@ -64,7 +64,7 @@
                             </div>
                             <div id="div_mensaje" class="form-group">
                                 <label for="id_mensaje" class="control-label col-md-5"> Mensaje<span class="text-danger">*</span> </label>
-                                <textarea class="form-control col-md-offset-1 col-md-10" id="exampleFormControlTextarea1" rows="3" name="textoMensaje"></textarea>
+                                <textarea class="form-control col-md-offset-1 col-md-10" id="exampleFormControlTextarea1" rows="3" name="textoMensaje" maxlength="30"></textarea>
                             </div>
 
                             <div class="form-group">
@@ -80,12 +80,12 @@
                             </div>
                             <div class="form-group">
 <!--                                separacion izq-->
-                                <div class="aab controls col-md-3 "></div>
+                                <div class="aab controls col-md-4 "></div>
 <!--                                ancho-->
-                                <div class="controls col-md-6 ">
+                                <div class="controls col-md-7 ">
 <!--                                    <input type="submit" name="reservar" id="reservar-submit" tabindex="4" class="form-control btn btn-reservar" value="Reservar">-->
                                     <a>
-                                        <button class="btn" type="submit" name="reservar" id="reservar-submit" value="reservar">
+                                        <button class="btnReservar" type="submit" name="reservar" id="reservar-submit" value="reservar">
                                             <i class="far fa-envelope"></i> Reservar
                                         </button>
                                     </a>

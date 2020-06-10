@@ -68,7 +68,7 @@
                         <br>
                         <div class="text-center mt-4">
 
-                            <input type="submit" name="publicar" id="publicar-submit" tabindex="4" class="form-control btn btn-login" value="Publicar">
+                            <input type="submit" name="publicar" id="publicar-submit" tabindex="4" class="form-control btnPublicar" value="Publicar">
                             <span class="glyphicon glyphicon-share-alt"></span>
 
                         </div>

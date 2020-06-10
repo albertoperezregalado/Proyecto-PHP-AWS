@@ -1,6 +1,6 @@
 <form method="POST">
     <div style="display:flex; flex-direction: row; justify-content: left; align-items: center">
-        <input type="submit" name="ordenarasc" id="ordenar-submit" tabindex="4" class="form-control btn btn-ordenar" value="Viajes más económicos">
+        <input type="submit" name="ordenarasc" id="ordenar-submit" tabindex="4" class="form-control btnOrdenar" value="Viajes más económicos">
     </div>
 </form>
 <br>
@@ -42,7 +42,7 @@
                             </div>
                         </div>
                         <div class="footer">
-                            <a href="<?php echo $_SESSION['home']."admin/viajes/reservarViaje/".$row->id_viaje ?>" class="Cbtn Cbtn-primary">Me interesa</a>
+                            <a href="<?php echo $_SESSION['home']."admin/viajes/reservarViaje/".$row->id_viaje ?>" class="btnMeInteresa">Me interesa</a>
                         </div>
                     </div>
                 </div>
